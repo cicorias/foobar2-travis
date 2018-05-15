@@ -1,0 +1,27 @@
+{
+  "name": "@cicorias/foobar2",
+  "version": "0.0.0-development",
+  "description": "",
+  "main": "index.js",
+  "private": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cicorias/foobar2-travis.git"
+  },
+  "publishConfig": {
+    "public": true
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "semantic-release-cli": "^4.0.1",
+    "semantic-release": "^15.4.1",
+    "travis-deploy-once": "^5.0.0"
+  }
+}
